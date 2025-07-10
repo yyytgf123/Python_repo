@@ -3,3 +3,4 @@ while True:
         print(input())
     except EOFError:
         break
+    

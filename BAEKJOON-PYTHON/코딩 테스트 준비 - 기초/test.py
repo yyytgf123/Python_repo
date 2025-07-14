@@ -1,9 +1,13 @@
-import math
+loop = int(input())
+store = []
+count = 0
 
-# 입력 받기
-A, I = map(int, input().split())
-
-# 저작권이 있는 멜로디의 최소 개수 계산
-B = (I - 1) * A + 1
-
-print(B)
+for i in range(loop):
+    user_input = input()
+    print(len(user_input))
+    for j in len(user_input):
+        if store not in user_input:
+            store.append(j)
+            count += 1
+        
+print(count)

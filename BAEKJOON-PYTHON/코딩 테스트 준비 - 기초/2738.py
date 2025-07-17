@@ -17,7 +17,6 @@
 #         print(array[i][j] + array2[i][j], end=" ")
 #     print()
 
-
 # 수정
 N, M = map(int, input().split())
 

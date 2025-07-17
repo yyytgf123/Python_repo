@@ -9,7 +9,7 @@ col = 0
 
 for i in range(9):
     for j in range(9):
-          if a[i][j] > max_value:
+          if a[i][j] >= max_value:
                 max_value = a[i][j]
                 row = i+1
                 col = j+1

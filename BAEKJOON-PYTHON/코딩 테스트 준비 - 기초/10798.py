@@ -19,11 +19,13 @@ for _ in range(5):
     length.append(len(line))
     lines.append(line)
 
-
+print(length)
+print(lines)
 
 for j in range(max(length)):
     for i in range(5):
         if j< length[i]:
+            print(lines[i][j])
             ans+=lines[i][j]
 
 print(ans)
